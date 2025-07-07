@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "vehicles")
+@Table(name = "vehicles", uniqueConstraints = @UniqueConstraint(columnNames = "plate_number"))
 public class Vehicle {
 
     @Id
