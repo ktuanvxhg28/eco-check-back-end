@@ -53,16 +53,7 @@ public class VehicleController {
         return ResponseEntity.ok(apiResponse);
     }
 
-//    @PostMapping
-//    public ResponseEntity<VehicleResponse> createVehicle(
-//            @RequestBody @Valid VehicleCreateRequest request,
-//            @AuthenticationPrincipal UserPrincipal currentUser) {
-//
-//        Long ownerId = currentUser.getId();  // lấy từ token
-//        VehicleResponse created = vehicleService.createVehicle(ownerId, request);
-//
-//        return ResponseEntity.status(HttpStatus.CREATED).body(created);
-//    }
+
 
 
 
