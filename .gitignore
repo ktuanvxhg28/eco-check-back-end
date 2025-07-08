@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore real properties
+src/main/resources/application.properties
+
+# Keep the example
+!src/main/resources/application.properties.example

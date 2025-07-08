@@ -1,0 +1,14 @@
+# Application name
+spring.application.name=eco-check
+
+# Database config (customize these for your local setup)
+spring.datasource.url=jdbc:mysql://localhost:3306/ecocheck
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+
+# Hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+# JWT signer key (replace with your own secure key)
+jwt.signer-key=YOUR_JWT_SIGNER_KEY
